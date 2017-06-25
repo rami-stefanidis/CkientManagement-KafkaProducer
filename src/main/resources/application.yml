@@ -10,3 +10,7 @@ eureka:
   client:
     service-url:
       defaultZone: http://localhost:1111/eureka
+
+kafka:
+  bootstrap-servers: 10.0.0.100:9092
+  customersTopic: CustomersTopic

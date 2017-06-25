@@ -10,10 +10,10 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
  */
 @SpringBootApplication
 @EnableDiscoveryClient
-public class ClientManagementKafkaProducer
+public class KafkaProducerApplication
 {
     public static void main( String[] args )
     {
-        SpringApplication.run(ClientManagementKafkaProducer.class, args);
+        SpringApplication.run(KafkaProducerApplication.class, args);
     }
 }
